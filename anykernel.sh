@@ -34,7 +34,7 @@ no_magisk_check=1
 . tools/ak3-core.sh
 
 # GKI check
-kernel_version=$(cat /proc/version | awk -F '-' '{print $1}' | awk '{print $3}')
+kernel_version=$(uname -a | awk -F '-' '{print $1}' | awk '{print $3}')
 case $kernel_version in
     5.10*) ksu_supported=true ;;
     5.15*) ksu_supported=true ;;
