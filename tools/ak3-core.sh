@@ -1054,5 +1054,3 @@ do_check_boot_version() {
 ### end methods
 
 setup_ak;
-
-do_check_boot_version;
