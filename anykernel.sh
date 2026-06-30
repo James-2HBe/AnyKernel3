@@ -5,18 +5,18 @@
 # global properties
 properties() { '
 kernel.string=Wild Kernels by TheWildJames aka Morgan Weedman
-do.devicecheck=0
+do.devicecheck=1
 do.modules=0
 do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
-do.check_boot_version=0
-device.name1=
-device.name2=
-device.name3=
-device.name4=
-device.name5=
-supported.versions=
+do.check_boot_version=1
+device.name1=vitamin
+device.name2=Oneplus Ace 2V
+device.name3=Oneplus Ace2V
+device.name4=OnePlus Ace2V
+device.name5=oneplus ace2v
+supported.versions=5.10.236
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
